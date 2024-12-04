@@ -9,7 +9,7 @@ To write python program to implement sliding window protocol.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-### Cilent:
+### Server:
 ```
 import socket
 s=socket.socket()
@@ -30,7 +30,7 @@ while True:
             print(ack)
             i+=s
 ```
-### Server:
+### Client:
 ```
 import socket
 s=socket.socket()
